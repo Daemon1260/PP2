@@ -72,7 +72,7 @@ Try accessing the `return_value` identifier without prepending `$`.
 
 <details>
     <summary>You Answer</summary>
-    ......
+    mit dem $ wird der Shell gesagt das Sie den Text durch einen wert ersetzten soll, ohne das $ wird nur der Text return_value ausgegeben,
 </details>
 
 ### Task 3: Function-Identifiers
@@ -344,7 +344,7 @@ You can use a shorthand within your calls to add this string as a prefix to any 
 **Look at task 6 again. What is the complete filepath of your functions file?**
 <details>
     <summary>Your Answer</summary>
-    ....
+    /mnt/c/WINDOWS/system32/function
 </details>
 
 All filenames start with a `/`. 
@@ -368,7 +368,8 @@ cd /
 **Run `ls` again and insert the content here:**
 <details>
     <summary>Your Answer</summary>
-    ....
+    bin                boot  etc   init  lib.usr-is-merged  lost+found  mnt  proc  run   sbin.usr-is-merged  srv  tmp  var
+    bin.usr-is-merged  dev   home  lib   lib64              media       opt  root  sbin  snap                sys  usr
 </details>
 
 Now navigate through your filesystem using `cd` and the name of the directory you want to set as your new `pwd`.
