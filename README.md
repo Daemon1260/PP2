@@ -71,7 +71,7 @@ Try accessing the `return_value` identifier without prepending `$`.
 **What happens and why?**
 
 <details>
-    <summary>You Answer</summary>
+    <summary>Ohne das $ weiß die Shell nicht, dass man auf eine Variable zugreifen möchte und es wird der Text return_value ausgegeben. r</summary>
     ......
 </details>
 
@@ -300,7 +300,7 @@ cat ./function
 
 **What happend?**
 <details>
-    <summary>Your Explaination</summary>
+    <summary> mit einem > wird eine Befehl gespeichert oder eine vorhandener überschrieben, wenn man 2 also >> schreibt wird en Befehl zusätzlich hinzu gefügt und der vorherige Befehl nicht überschrieben.</summary>
     .....
 
 </details>
@@ -343,7 +343,7 @@ You can use a shorthand within your calls to add this string as a prefix to any 
 
 **Look at task 6 again. What is the complete filepath of your functions file?**
 <details>
-    <summary>Your Answer</summary>
+    <summary> /mnt/c/WINDOWS/system32/function </summary>
     ....
 </details>
 
@@ -367,7 +367,19 @@ cd /
 ```
 **Run `ls` again and insert the content here:**
 <details>
-    <summary>Your Answer</summary>
+    <summary>total 36
+drwxr-x--- 4 enoermerich enoermerich 4096 Apr 13 13:38 .
+drwxr-xr-x 3 root        root        4096 Apr 13 12:03 ..
+-rw------- 1 enoermerich enoermerich 3390 Apr 14 07:24 .bash_history
+-rw-r--r-- 1 enoermerich enoermerich  220 Apr 13 12:03 .bash_logout
+-rw-r--r-- 1 enoermerich enoermerich 3771 Apr 13 12:03 .bashrc
+drwx------ 2 enoermerich enoermerich 4096 Apr 13 12:04 .cache
+drwxr-xr-x 2 enoermerich enoermerich 4096 Apr 13 12:04 .landscape
+-rw-r--r-- 1 enoermerich enoermerich    0 Apr 14 06:54 .motd_shown
+-rw-r--r-- 1 enoermerich enoermerich  807 Apr 13 12:03 .profile
+-rw-r--r-- 1 enoermerich enoermerich    0 Apr 13 13:28 .sudo_as_admin_successful
+-rw------- 1 enoermerich enoermerich  854 Apr 13 13:38 .viminfo
+    </summary>
     ....
 </details>
 
@@ -382,7 +394,23 @@ Use `rm` to delete a file and `rm -rf` to delete a directory.
 
 **Add a directory into your `~` dir and create an empty file in it. Delete the directory again.**
 <details>
-    <summary>Your Terminal Output</summary>
+    <summary>enoermerich@Daemon1260:~$ cd
+enoermerich@Daemon1260:~$ pwd
+/home/enoermerich
+enoermerich@Daemon1260:~$ mkdir Test
+enoermerich@Daemon1260:~$ cd Test
+enoermerich@Daemon1260:~/Test$ pwd
+/home/enoermerich/Test
+enoermerich@Daemon1260:~/Test$ touch notis.txt
+enoermerich@Daemon1260:~/Test$ ls -la
+total 8
+drwxr-xr-x 2 enoermerich enoermerich 4096 Apr 14 07:38 .
+drwxr-x--- 5 enoermerich enoermerich 4096 Apr 14 07:37 ..
+-rw-r--r-- 1 enoermerich enoermerich    0 Apr 14 07:38 notis.txt
+enoermerich@Daemon1260:~/Test$ cd ~
+enoermerich@Daemon1260:~$ rm -rf Test
+enoermerich@Daemon1260:~$ ls
+enoermerich@Daemon1260:~$</summary>
 ```bash
 your terminal output
 ```
@@ -438,7 +466,7 @@ When you finished that tutorial, open a file in your home directory and manipula
 
 **How do you save a buffer to a new filename from within `vim`?**
 <details>
-    <summary>Your Answer</summary>
+    <summary>Mit dem Befehl :w (Dateinamen) speichert man seine Änderungen unter gewünschtem Namen ab und mit :wq (Dateinamen) speichert man diese und verlässt gleichzeitig das Programm (Zeitlich kam ich bis 2.7 aus der vimtutor) <ENTER></summary>
     .....
 </details>
  
